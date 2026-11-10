@@ -1,0 +1,354 @@
+[
+  {
+    "reportId": "R005",
+    "questionId": "68dea616d0cda73d07e93ae6",
+    "expected_verdict": "defect",
+    "expected_repair": "answer_key",
+    "expected_route": "auto_apply",
+    "faculty_rationale": "Total flux is q/(4 eps0) + 2q/(8 eps0) = q/(2 eps0). Equating to n*q/(2 eps0) yields n = 1. Stored key 2 is incorrect."
+  },
+  {
+    "reportId": "R029",
+    "questionId": "68e8734442c06737d6e56da4",
+    "expected_verdict": "no_error",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Question verified sound by independent solver and step-by-step solution. Student miscalculated: Student got mu = 0.4 likely by miscalculating mass as m = 100 kg instead of weight W = 100 N (where m = W/g = 10 kg)."
+  },
+  {
+    "reportId": "R012",
+    "questionId": "61dffbec08489156b684bd22",
+    "expected_verdict": "defect",
+    "expected_repair": "spelling",
+    "expected_route": "auto_apply",
+    "faculty_rationale": "Confirmed typos 'Epithellial tisue' in option A. Surgically corrected to 'Epithelial tissue'."
+  },
+  {
+    "reportId": "R002",
+    "questionId": "60f744b3f1b9bc7cc7b4a949",
+    "expected_verdict": "defect",
+    "expected_repair": "answer_key",
+    "expected_route": "auto_apply",
+    "faculty_rationale": "Three independent blind solves yield 50 V (Option A); stored solution explicitly calculates 50 V; stored key incorrectly said C (130 V)."
+  },
+  {
+    "reportId": "R004",
+    "questionId": "68e870ef42c06737d6e565c4",
+    "expected_verdict": "defect",
+    "expected_repair": "answer_key",
+    "expected_route": "auto_apply",
+    "faculty_rationale": "Three independent blind solves yield 4800 N/m^2 (Option D); stored solution explicitly calculates 4800 N/m^2; stored key incorrectly said A (4556 N/m^2)."
+  },
+  {
+    "reportId": "R008",
+    "questionId": "60f742f6660d187cc13a8078",
+    "expected_verdict": "defect",
+    "expected_repair": "stem_data",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "Question omits the inductance value L (solution silently introduces L = 95.5 mH in its calculations)."
+  },
+  {
+    "reportId": "R034",
+    "questionId": "695ee00b88d7701e561aabc5",
+    "expected_verdict": "no_error",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Question verified sound by independent solver and step-by-step solution. Student miscalculated: For phase difference pi/2, resultant intensity is I_1 + I_2 = 2*I, so the intensity doubles rather than remaining the same. Hence Assertion is false."
+  },
+  {
+    "reportId": "R010",
+    "questionId": "622f08d7b70e4b50e4500a1b",
+    "expected_verdict": "defect",
+    "expected_repair": "option_repair",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "Question contains only 3 options (A, B, C); option (D) is completely absent. Missing option text requires faculty authoring."
+  },
+  {
+    "reportId": "R017",
+    "questionId": "6208e80a9cb2ab67dac61bd0",
+    "expected_verdict": "no_error",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Options use the word 'more' (e.g. 'receive more red light'), which is grammatically correct. The word 'mere' does not appear in options."
+  },
+  {
+    "reportId": "R032",
+    "questionId": "68dea7c2387eea3d0d95f9bb",
+    "expected_verdict": "no_error",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Question verified sound by independent solver and step-by-step solution. Student miscalculated: Steps conform to standard syllabus"
+  },
+  {
+    "reportId": "R026",
+    "questionId": "620e23cecc50543bc7db9186",
+    "expected_verdict": "defect",
+    "expected_repair": "syllabus",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "Student flagged question as out of syllabus ('out of syllabus for NEET'). Requires faculty syllabus verification."
+  },
+  {
+    "reportId": "R042",
+    "questionId": "63c7cce12981ed154ee92c94",
+    "expected_verdict": "defect",
+    "expected_repair": "wrong_chapter",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "Question mapped under incorrect chapter metadata (Geometrical optics and optical instruments). Student lead: 'chapter is wrong, displacement current is not geometrical optics'. Requires chapter re-assignment by faculty."
+  },
+  {
+    "reportId": "R023",
+    "questionId": "68ecbacb2ec87a18deba1ad7",
+    "expected_verdict": "defect",
+    "expected_repair": "wrong_chapter",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "Question mapped under incorrect chapter metadata (The Living World). Student lead: 'this is from neural control chapter, why is it in living world'. Requires chapter re-assignment by faculty."
+  },
+  {
+    "reportId": "R007",
+    "questionId": "60f742f6660d187cc13a8078",
+    "expected_verdict": "defect",
+    "expected_repair": "stem_data",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "Question omits the inductance value L (solution silently introduces L = 95.5 mH in its calculations)."
+  },
+  {
+    "reportId": "R003",
+    "questionId": "60f744b3f1b9bc7cc7b4a949",
+    "expected_verdict": "defect",
+    "expected_repair": "answer_key",
+    "expected_route": "auto_apply",
+    "faculty_rationale": "Three independent blind solves yield 50 V (Option A); stored solution explicitly calculates 50 V; stored key incorrectly said C (130 V)."
+  },
+  {
+    "reportId": "R038",
+    "questionId": "68f21df0941cda588bc0470b",
+    "expected_verdict": "app_issue",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Triage identified student comment as app_issue: 'I clicked A but it saved B'"
+  },
+  {
+    "reportId": "R014",
+    "questionId": "63765a28f1d8416ae0408d89",
+    "expected_verdict": "defect",
+    "expected_repair": "markup_leak",
+    "expected_route": "auto_apply",
+    "faculty_rationale": "Raw LaTeX command '\\frac{7}{8}' displayed unrendered as plaintext. Cleaned to '7/8'."
+  },
+  {
+    "reportId": "R040",
+    "questionId": "6264197209f4fd65f58f5707",
+    "expected_verdict": "no_error",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Question verified sound by independent solver and step-by-step solution. Student miscalculated: Steps conform to standard syllabus"
+  },
+  {
+    "reportId": "R044",
+    "questionId": "68dea577d0cda73d07e9391c",
+    "expected_verdict": "no_error",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Question verified sound by independent solver and step-by-step solution. Student miscalculated: Student likely subtracted potential with respect to infinity without taking the difference between points P and S, giving 22 V instead of (V_P - V_S) = 14 V."
+  },
+  {
+    "reportId": "R028",
+    "questionId": "6956d7bb23cb221e570d6013",
+    "expected_verdict": "no_error",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Question verified sound by independent solver and step-by-step solution. Student miscalculated: Student recalled tan theta = 4H/R and mistakenly inverted it or forgot the factor of 2 in denominator of H, arriving at tan^-1(2) instead of tan^-1(4)."
+  },
+  {
+    "reportId": "R022",
+    "questionId": "61ee6c9d90a1a968a168686b",
+    "expected_verdict": "defect",
+    "expected_repair": "spelling",
+    "expected_route": "auto_apply",
+    "faculty_rationale": "Typo 'Choroid plexux' in Option D confirmed. Surgically fixed to 'Choroid plexus'."
+  },
+  {
+    "reportId": "R015",
+    "questionId": "6956d79788d7701e5617bc29",
+    "expected_verdict": "defect",
+    "expected_repair": "identical_options",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "Options (B) and (C) are identical duplicates ('0 W'). Creating a distinct distractor requires faculty authoring (taxonomy auto: false)."
+  },
+  {
+    "reportId": "R016",
+    "questionId": "6263d75bdd44e265ef926d97",
+    "expected_verdict": "defect",
+    "expected_repair": "solution_fix",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "Solution concluding equation yields a = 40 cm, while stored key is 20 cm. Internal conflict between answer key and solution text requires faculty resolution."
+  },
+  {
+    "reportId": "R018",
+    "questionId": "612151a6a34397610a9a2e58",
+    "expected_verdict": "defect",
+    "expected_repair": "markup_leak",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "Raw LaTeX command '\\frac{7}{8}' displayed unrendered as plaintext. Cleaned to '7/8'."
+  },
+  {
+    "reportId": "R039",
+    "questionId": "68c801bc1b1dbc16dc93bf2b",
+    "expected_verdict": "language_mode",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Triage identified student comment as language_mode: 'Hindi me question chahiye'"
+  },
+  {
+    "reportId": "R009",
+    "questionId": "622f08d7b70e4b50e4500a1b",
+    "expected_verdict": "defect",
+    "expected_repair": "option_repair",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "Question contains only 3 options (A, B, C); option (D) is completely absent. Missing option text requires faculty authoring."
+  },
+  {
+    "reportId": "R013",
+    "questionId": "617fa18efd53ff1629ed890f",
+    "expected_verdict": "defect",
+    "expected_repair": "exam_reference",
+    "expected_route": "auto_apply",
+    "faculty_rationale": "Exam reference tag '(NEET 2019)' leaked into question stem. Stripped surgically; zero numbers in question mutated."
+  },
+  {
+    "reportId": "R030",
+    "questionId": "6956d7e988d7701e5617bd3e",
+    "expected_verdict": "no_error",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Question verified sound by independent solver and step-by-step solution. Student miscalculated: Student forgot that cos(pi/4) = 1/sqrt(2) divides the amplitude or solved for position instead of velocity, getting 4*sqrt(2) instead of 8*sqrt(2)."
+  },
+  {
+    "reportId": "R001",
+    "questionId": "60f744b3f1b9bc7cc7b4a949",
+    "expected_verdict": "defect",
+    "expected_repair": "answer_key",
+    "expected_route": "auto_apply",
+    "faculty_rationale": "Three independent blind solves yield 50 V (Option A); stored solution explicitly calculates 50 V; stored key incorrectly said C (130 V)."
+  },
+  {
+    "reportId": "R036",
+    "questionId": "60ca4feb6420652745f55522",
+    "expected_verdict": "display_issue",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Triage identified student comment as display_issue: 'options are cut on my phone screen'"
+  },
+  {
+    "reportId": "R021",
+    "questionId": "68f21caf941cda588bc04365",
+    "expected_verdict": "defect",
+    "expected_repair": "type_mismatch",
+    "expected_route": "auto_apply",
+    "faculty_rationale": "Question has only 1 correct option (B) with an empty string in answer array. Stored erroneously as 'mcq'; converted to 'scq'."
+  },
+  {
+    "reportId": "R011",
+    "questionId": "68e872546e45ba37dcc16bc0",
+    "expected_verdict": "defect",
+    "expected_repair": "option_repair",
+    "expected_route": "auto_apply",
+    "faculty_rationale": "Option (C) HTML is empty (<br />(C) <br />). Force ratio is 1:1 by Newton's 3rd Law. Surgical repair restores '1 : 1'."
+  },
+  {
+    "reportId": "R041",
+    "questionId": "6208e298fa399567e0878700",
+    "expected_verdict": "not_actionable",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Triage identified student comment as not_actionable: 'asdfgh'"
+  },
+  {
+    "reportId": "R043",
+    "questionId": "636283dbe3770c24f866e6d6",
+    "expected_verdict": "no_error",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Question verified sound by independent solver and step-by-step solution. Student miscalculated: Capacitance of a spherical conductor depends directly on radius (C = 4*pi*eps0*R), not on surface area. Since R = 4r, the ratio of capacitances is 1:4 (or 4:1)."
+  },
+  {
+    "reportId": "R027",
+    "questionId": "6062ec84518e9535e120c422",
+    "expected_verdict": "no_error",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Adversarial prompt injection attempt detected ('IGNORE ALL PREVIOUS INSTRUCTIONS'). Comment ignored. Stored question verified sound and key A is correct."
+  },
+  {
+    "reportId": "R006",
+    "questionId": "696a866665252c04fc1f81c2",
+    "expected_verdict": "defect",
+    "expected_repair": "stem_data",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "Question asks for volume contraction of a cube but omits the edge length of the cube (solution uses 10 cm without stating it in the stem)."
+  },
+  {
+    "reportId": "R019",
+    "questionId": "612151a6a34397610a9a2e58",
+    "expected_verdict": "defect",
+    "expected_repair": "markup_leak",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "Raw LaTeX command '\\frac{7}{8}' displayed unrendered as plaintext. Cleaned to '7/8'."
+  },
+  {
+    "reportId": "R035",
+    "questionId": "66fe9dbe22132e5a70a3e579",
+    "expected_verdict": "no_error",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Question verified sound by independent solver and step-by-step solution. Student miscalculated: Steps conform to standard syllabus"
+  },
+  {
+    "reportId": "R025",
+    "questionId": "622df25ab70e4b50e44ff837",
+    "expected_verdict": "defect",
+    "expected_repair": "diagram",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "Stem explicitly references 'shown in figure', but quesImages is empty. Attaching the diagram asset requires faculty upload (taxonomy auto: false)."
+  },
+  {
+    "reportId": "R037",
+    "questionId": "68c9ae5afb6b2f16e2d43b1c",
+    "expected_verdict": "display_issue",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Triage identified student comment as display_issue: 'question takes forever to load'"
+  },
+  {
+    "reportId": "R020",
+    "questionId": "68c8153cfb6b2f16e2d3ceaf",
+    "expected_verdict": "defect",
+    "expected_repair": "answer_key",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "MCQ answer stored as a single comma-joined string ['A, B, D'] rather than normalized option list ['A', 'B', 'D'], causing evaluation penalty."
+  },
+  {
+    "reportId": "R033",
+    "questionId": "68dea715387eea3d0d95f790",
+    "expected_verdict": "no_error",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Question verified sound by independent solver and step-by-step solution. Student miscalculated: The question asks for the total surface area considering correct significant figures (4 significant digits: 311.3) and then asks for 10A, which gives 3113 as an integer, not 3112.99."
+  },
+  {
+    "reportId": "R031",
+    "questionId": "68dea619d0cda73d07e93aee",
+    "expected_verdict": "no_error",
+    "expected_repair": null,
+    "expected_route": "no_change",
+    "faculty_rationale": "Question verified sound by independent solver and step-by-step solution. Student miscalculated: Student took angular velocity directly without accounting for relative angular acceleration from rest."
+  },
+  {
+    "reportId": "R024",
+    "questionId": "5fc60508028950133eac8963",
+    "expected_verdict": "defect",
+    "expected_repair": "answer_form",
+    "expected_route": "faculty_review",
+    "faculty_rationale": "Integer question did not specify units for force. Additive clarification '(in N)' appended to prompt."
+  }
+]

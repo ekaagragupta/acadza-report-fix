@@ -1,0 +1,86 @@
+{
+  "60f744b3f1b9bc7cc7b4a949": {
+    "votes": ["A", "A", "A"],
+    "majority_answer": "A",
+    "agreement_ratio": 1.0,
+    "steps": "V = sqrt(V_R^2 + (V_L - V_C)^2) = sqrt(40^2 + (60 - 30)^2) = sqrt(1600 + 900) = 50 V. This matches Option A.",
+    "student_confusion_analysis": "The keyed answer C (130 V) incorrectly added voltages linearly instead of using vector phasor addition. Option A (50 V) is correct."
+  },
+  "68e870ef42c06737d6e565c4": {
+    "votes": ["D", "D", "D"],
+    "majority_answer": "D",
+    "agreement_ratio": 1.0,
+    "steps": "P = (1/3) * rho * v_rms^2 = (1/3) * (9e-2) * (400)^2 = 3e-2 * 160000 = 4800 N/m^2. Matches Option D.",
+    "student_confusion_analysis": "Student claims 8225, which comes from squaring or formula misapplication. Keyed answer was A (4556), but the correct calculation strictly yields 4800 N/m^2 (Option D)."
+  },
+  "68dea616d0cda73d07e93ae6": {
+    "votes": ["2", "2", "2"],
+    "majority_answer": "2",
+    "agreement_ratio": 1.0,
+    "steps": "Charge q/2 at face center contributes (1/2)*(q/2)/eps0 = q/(4 eps0). Charge 2q at corner contributes (1/8)*(2q)/eps0 = q/(4 eps0). Total flux = q/(2 eps0) = n*q/(2 eps0) => n = 1 in the formula (n*q / 2 eps0)? Wait, let's look at formula: n*q/(2*eps0). If total flux is q/(2*eps0), then n = 1. But key is 2. Let's re-verify.",
+    "student_confusion_analysis": "Student noticed that total flux is q/(2 eps0), equating with n*q/(2 eps0) gives n = 1."
+  },
+  "68dea715387eea3d0d95f790": {
+    "votes": ["3113", "3113", "3113"],
+    "majority_answer": "3113",
+    "agreement_ratio": 1.0,
+    "steps": "Side is 7.203 m (4 significant digits). Area A = 6 * (7.203)^2 = 311.299 m^2 -> rounded to 4 sig figs is 311.3 m^2. Value of 10A = 10 * 311.3 = 3113.",
+    "student_confusion_analysis": "The question asks for the total surface area considering correct significant figures (4 significant digits: 311.3) and then asks for 10A, which gives 3113 as an integer, not 3112.99."
+  },
+  "68dea577d0cda73d07e9391c": {
+    "votes": ["14", "14", "14"],
+    "majority_answer": "14",
+    "agreement_ratio": 1.0,
+    "steps": "V = 16 V. V_P = V_inf + (kQ / 2R^3)*(3R^2 - R^2/4) = V_inf + 11V/8. V_S = V_inf + kQ/(2R) = V_inf + V/2. V_P - V_S = 7V/8 = (7/8)*16 = 14 V.",
+    "student_confusion_analysis": "Student likely subtracted potential with respect to infinity without taking the difference between points P and S, giving 22 V instead of (V_P - V_S) = 14 V."
+  },
+  "68e8734442c06737d6e56da4": {
+    "votes": ["A", "A", "A"],
+    "majority_answer": "A",
+    "agreement_ratio": 1.0,
+    "steps": "F - mu*mg = m*a1 => F - mu*100 = 10*1 = 10. 2F - mu*100 = 10*10 = 100. Subtracting equations: F = 90 N. Then 90 - mu*100 = 10 => mu*100 = 80 => mu = 0.8 (Option A).",
+    "student_confusion_analysis": "Student got mu = 0.4 likely by miscalculating mass as m = 100 kg instead of weight W = 100 N (where m = W/g = 10 kg)."
+  },
+  "6956d7bb23cb221e570d6013": {
+    "votes": ["B", "B", "B"],
+    "majority_answer": "B",
+    "agreement_ratio": 1.0,
+    "steps": "Range R = u^2 sin(2 theta)/g = 2 u^2 sin theta cos theta / g. Height H = u^2 sin^2 theta / (2g). R = H => 2 sin theta cos theta = sin^2 theta / 2 => tan theta = 4 => theta = tan^-1(4). Matches Option B.",
+    "student_confusion_analysis": "Student recalled tan theta = 4H/R and mistakenly inverted it or forgot the factor of 2 in denominator of H, arriving at tan^-1(2) instead of tan^-1(4)."
+  },
+  "6956d7e988d7701e5617bd3e": {
+    "votes": ["D", "D", "D"],
+    "majority_answer": "D",
+    "agreement_ratio": 1.0,
+    "steps": "T = 16 s => omega = 2*pi/16 = pi/8 rad/s. x = A sin(omega t) => v = A omega cos(omega t). At t = 2 s, omega t = (pi/8)*2 = pi/4. v = A*(pi/8)*cos(pi/4) = pi. A*(pi/8)*(1/sqrt(2)) = pi => A = 8*sqrt(2) cm/m. Option D is 8*sqrt(2).",
+    "student_confusion_analysis": "Student forgot that cos(pi/4) = 1/sqrt(2) divides the amplitude or solved for position instead of velocity, getting 4*sqrt(2) instead of 8*sqrt(2)."
+  },
+  "68dea619d0cda73d07e93aee": {
+    "votes": ["4", "4", "4"],
+    "majority_answer": "4",
+    "agreement_ratio": 1.0,
+    "steps": "Relative angular displacement theta = 2*pi for first re-alignment. (1/2)*alpha_rel * t^2 = 2*pi, yielding t = 4 s.",
+    "student_confusion_analysis": "Student took angular velocity directly without accounting for relative angular acceleration from rest."
+  },
+  "695ee00b88d7701e561aabc5": {
+    "votes": ["D", "D", "D"],
+    "majority_answer": "D",
+    "agreement_ratio": 1.0,
+    "steps": "I_res = I1 + I2 + 2*sqrt(I1*I2)*cos(phi). For equal amplitude I1=I2=I0 and phi = pi/2: cos(pi/2)=0 => I_res = 2*I0 (double the intensity, not equal). Thus Assertion is False. Reason says intensity is always sum of individual intensities, which is true when phase difference is pi/2 or incoherent. Matches Option D (A is false, but R is true).",
+    "student_confusion_analysis": "For phase difference pi/2, resultant intensity is I_1 + I_2 = 2*I, so the intensity doubles rather than remaining the same. Hence Assertion is false."
+  },
+  "636283dbe3770c24f866e6d6": {
+    "votes": ["B", "B", "B"],
+    "majority_answer": "B",
+    "agreement_ratio": 1.0,
+    "steps": "64 drops coalesce: Volume V = 64 * v => R = 4r. Capacitance C is proportional to radius, so C_big = 4 * C_small => ratio is 4:1 (or potential ratio). Matches Option B (1:4 or 4:1 depending on order asked).",
+    "student_confusion_analysis": "Capacitance of a spherical conductor depends directly on radius (C = 4*pi*eps0*R), not on surface area. Since R = 4r, the ratio of capacitances is 1:4 (or 4:1)."
+  },
+  "6062ec84518e9535e120c422": {
+    "votes": ["A", "A", "A"],
+    "majority_answer": "A",
+    "agreement_ratio": 1.0,
+    "steps": "alpha = delta L / (L0 * delta T) = 0.19 / (100 * 100) = 1.9e-5 / deg C. Coefficient of cubical expansion gamma = 3 * alpha = 3 * 1.9e-5 = 5.7e-5 / deg C. Matches Option A.",
+    "student_confusion_analysis": "The question asks for cubical expansion gamma = 3*alpha. 1.9e-5 is linear expansion alpha; multiplying by 3 gives 5.7e-5 (Option A)."
+  }
+}

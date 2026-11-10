@@ -1,0 +1,72 @@
+{
+  "sample_size": 43,
+  "reported_questions_in_sample": 39,
+  "unreported_questions_in_sample": 4,
+  "total_detector_hits": 10,
+  "unreported_defects_found": [],
+  "defect_class_extrapolations": {
+    "option_repair": {
+      "sample_occurrences": 2,
+      "sample_rate_percent": 4.65,
+      "estimated_in_8_lakh_bank": 37209,
+      "ci_95_percent": [
+        0,
+        87565
+      ]
+    },
+    "answer_key": {
+      "sample_occurrences": 2,
+      "sample_rate_percent": 4.65,
+      "estimated_in_8_lakh_bank": 37209,
+      "ci_95_percent": [
+        0,
+        87565
+      ]
+    },
+    "identical_options": {
+      "sample_occurrences": 1,
+      "sample_rate_percent": 2.33,
+      "estimated_in_8_lakh_bank": 18604,
+      "ci_95_percent": [
+        0,
+        54643
+      ]
+    },
+    "diagram": {
+      "sample_occurrences": 1,
+      "sample_rate_percent": 2.33,
+      "estimated_in_8_lakh_bank": 18604,
+      "ci_95_percent": [
+        0,
+        54643
+      ]
+    },
+    "markup_leak": {
+      "sample_occurrences": 2,
+      "sample_rate_percent": 4.65,
+      "estimated_in_8_lakh_bank": 37209,
+      "ci_95_percent": [
+        0,
+        87565
+      ]
+    },
+    "exam_reference": {
+      "sample_occurrences": 1,
+      "sample_rate_percent": 2.33,
+      "estimated_in_8_lakh_bank": 18604,
+      "ci_95_percent": [
+        0,
+        54643
+      ]
+    },
+    "solution_fix": {
+      "sample_occurrences": 1,
+      "sample_rate_percent": 2.33,
+      "estimated_in_8_lakh_bank": 18604,
+      "ci_95_percent": [
+        0,
+        54643
+      ]
+    }
+  }
+}
